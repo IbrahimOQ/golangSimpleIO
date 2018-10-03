@@ -4,9 +4,9 @@
 ###### **Description**
 
 
-This Go package provides a straightforward way to read messages from socket connections and command line interface. It also provides functions for writing to consoles and socket connections.
+###### This Go package provides a straightforward way to read messages from socket connections and command line interface. It also provides functions for writing to consoles and socket connections.
 
-###### **Reading from Connection**
+#### **Reading from Connection**
 
 
 ###### input, response := io.ConnRead (connRes, "\n")
@@ -26,7 +26,7 @@ This Go package provides a straightforward way to read messages from socket conn
 
 ###### Assuming a connection is to an HTTP server, the example above will return the full HTTP response, once the connection is closed by the server.
 
-###### **Writing to Connection**
+#### **Writing to Connection**
 
 
 ###### io.ConnWrite (connRes, "This is some message")
@@ -36,7 +36,7 @@ This Go package provides a straightforward way to read messages from socket conn
 
 ###### This function is based on fmt.FPrintf (), and was provided for programmers who desire all-in-one.
 
-###### **Reading from Console**
+#### **Reading from Console**
 
 
 ###### input, response := io.ConsoleRead ("\n", "Some input: ")
@@ -48,7 +48,7 @@ This Go package provides a straightforward way to read messages from socket conn
 ###### The procedure returns two data. The first one is the input taken. The second is an error concerning the input process.
 ###### If there is no error, nothing will be provided.
 
-###### **Writing to Console**
+#### **Writing to Console**
 
 
 ###### io.ConsoleWrite ("Hello world!", "\n", "This is Golang")
