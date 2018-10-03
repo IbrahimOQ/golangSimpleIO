@@ -1,9 +1,6 @@
 #### **golangSimpleIO (version: 1.0.0)**
 
 
-###### **Description**
-
-
 ###### This Go package provides a straightforward way to read messages from socket connections and command line interface. It also provides functions for writing to consoles and socket connections.
 
 #### **Reading from Connection**
