@@ -1,11 +1,14 @@
-# golangSimpleIO - by Ibrahim Oladipupo Qamardeen (kensharval@gmail.com)
+# golangSimpleIO
 
-DEVELOPER INFO
-# I'm Ibrahim, a server-side systems engineer. This will be my first open-source project. I work with Golang and Java.
 
-DESCRITPION
-# This Go package provides a straightforward way to read messages from socket connections and command line interface.
-# It also provides functions for writing to consoles and socket connections.
+
+# DEVELOPER INFO: I'm Ibrahim, a server-side systems engineer. This will be my first open-source project. I work with Golang and Java.
+
+
+
+# DESCRITPION: This Go package provides a straightforward way to read messages from socket connections and command line interface. It also provides functions for writing to consoles and socket connections.
+
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 USAGE: READING FROM CONNECTION
